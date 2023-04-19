@@ -70,6 +70,21 @@
       grid-area: 3/4/5/5;
       border-top: #000 solid 10px;
     }
+    
+    @media screen (max-width: 428px){
+
+      .frame-container {
+        display: grid;
+        width: 250px;
+        grid-template-columns: 107px 66px 51px 17px;
+        grid-template-rows: 138px 43px 52px 7px;
+        gap: 3px;
+      }
+
+      .last {
+        border-top: #000 solid 3px;
+      }
+    }
   </style>
 </head>
 
